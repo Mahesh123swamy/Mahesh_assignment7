@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><h2>CMR Institute of Technology  (Nested Submenu)</h2>
+    <style>
+        ul{
+            background-color:orange;
+        }
+        ul li{
+            display:inline-block;
+            padding: 20px;
+        }
+        .home{
+            display: none;
+        }
+    ul li:hover  .home{
+        display: block;
+    position: absolute;
+    width:80px ;
+    height: 150px;
+    background-color: aqua;
+    }
+    .course{
+        display: none;
+    }
+    ul li:hover .course{
+        display: block;
+    position: absolute;
+    width:100px ;
+    height: 500px;
+    background-color: pink;
+    }
+  .EXAMS{
+    display: none;
+  }
+ ul li:hover .EXAMS{
+    display: block;
+    position: absolute;
+    width:200px ;
+    height: 380px;
+    background-color:gray;
+ } 
+    </style>
+    <title>Visit card</title>
+</head>
+<body style="border: solid black; width: 500PX; height: 130px;">
+    <ul >
+        <li >Home  <UL class="home"><br>
+            <LI> 
+               B.TECH
+            </LI><hr>
+            <li>M.TECH</li>
+        </UL>
+        </li>
+        <li>DEPARTMENT(course) 
+            <ul class="course">
+                <li>ECE</li><br><hr>
+                <li>CSE</li><br><hr>
+                <li>CSE-M</li><br><hr>
+                <li>EEE</li><br><hr>
+                <li>MECH</li><br><hr>
+                <li>IT</li>
+            </ul>
+        </li>
+        <li>exam
+            <ul class="EXAMS">
+                <li>MID EXAMINATION</li><hr>
+                <li>INTERNAL EXAMINATION </li><hr>
+                <li>EXTERNAL EXAMINATION</li><hr>
+                <li>SEM EXAMINATION</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
